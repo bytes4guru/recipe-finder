@@ -1,6 +1,7 @@
 // pages/api/fetchRecipes.ts
 import type { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
+
 type ExtraParams = {
   diet?: string;
   type?: string;
